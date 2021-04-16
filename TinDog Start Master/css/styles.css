@@ -1,0 +1,170 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h2, h3 {
+  font-weight: bold;
+}
+
+/* container */
+.container-fluid {
+  padding: 8% 15%;
+}
+
+/* section */
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section {
+  background-color: white;
+}
+
+/* navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* download button */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* heading */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+#title button {
+  font-weight: 1000px;
+}
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  margin-left: 80px;
+}
+.big-heading {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* feature */
+#features {
+  position: relative;
+  z-index: 1;
+}
+.feature-box {
+  padding: 3%;
+}
+#features i {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+#features i:hover {
+  color: #ff4c68;
+}
+.feature-title{
+  font-size: 2rem;
+}
+.feature p {
+  color: #afafaf;
+}
+
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+.testimonial-img {
+  border-radius: 100%;
+  width: 10%;
+}
+.testimonials-carousel-indicators button {
+  width: 13px!important;
+  height: 13px!important;
+  border-radius: 50%;
+  position: relative;
+  bottom: -100px;
+  margin-left: 10px!important;
+}
+.testimonial-text {
+  line-height: 1.5;
+  font-size: 2rem;
+  padding: 0 50px;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 7%;
+}
+.press-logo {
+  width: 13%;
+  margin: 10px 30px 18px 30px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+}
+.pricing-card {
+  padding: 3% 2% 0;
+  font-weight: 500;
+}
+.pricing-btn {
+  font-weight: 400;
+}
+.pricing-title {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-p {
+  margin-bottom: 50px;
+}
+.price-text {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+.text-sm {
+  padding: 20px 0;
+}
+.card-title {
+  font-size: 1.5rem;
+}
+/* cta */
+
+/* footer */
+#footer p {
+  color: grey;
+}
+.footer-fab {
+  margin: 20px 10px;
+}
+
+/* @media */
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+  #title {
+    text-align: center;
+  }
+}
