@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon Game</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <!-- css -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <h1 id="level-title">Press A Key to Start</h1>
+  <div class="container">
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- game rule -->
+
+  <button id="open_btn">Game rules</button>
+  <div id="background" class="back">
+    <div id="div1" class="content">
+      <div id="close">
+        <span id="close-button">×</span>
+        <h2>How to play Simon</h2>
+      </div>
+      <div id="div2">
+        <p class="gamerule-text">😉 Welcome to play Simon Game! <br><br>Press the A key to start the game. Simon will give the first sound. Repeat the signal by pressing the same color lens. If you fail to <b>correctly repeat a longer and longer sequence of
+          signals</b>. Simon will responds with a "RAZZ" sound. <br><br>So,
+          don't hesitate, start play with Simon!</p>
+      </div>
+      <h3 id="foot">Start to play!</h3>
+    </div>
+  </div>
+
+  <p class="end">made by Yu with ❤️ love</p>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+  <script src="popup-window.js" charset="utf-8"></script>
+</body>
+
+</html>

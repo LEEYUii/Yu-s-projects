@@ -1,0 +1,154 @@
+/* pop-up window */
+
+#open_btn {
+	background: #5cd31b;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bolder;
+  font-size: 1rem;
+  border-radius: 50px;
+  border-style: none;
+  border-width: medium;
+  margin-top: 10px;
+}
+
+#open_btn:hover {
+  cursor: pointer;
+}
+
+#background {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+  font-family: 'Indie Flower', cursive;
+}
+
+#div1 {
+	background: #eeeeee;
+	width: 70%;
+	z-index: 1;
+	margin: 12% auto;
+	overflow: auto;
+}
+
+#close-button {
+	color: white;
+	padding-top: 12px;
+	cursor: pointer;
+	padding-right: 15px;
+}
+
+#div2 {
+	background:#eeeeee;
+	margin: auto;
+	height: 300px;
+	padding: 0 20px;
+}
+
+#close {
+	padding: 5px;
+	background: #5cd31b;
+}
+
+#close-button {
+	float: right;
+	font-size: 30px;
+}
+
+#foot {
+  font-size: 28px;
+	text-align: center;
+	background: #5cd31b;
+	color: white;
+}
+
+#foot:hover {
+  cursor: pointer;
+}
+
+#open_btn h2 {
+	margin: 10px 0;
+	color: white;
+	padding-left: 15px;
+}
+
+#open_btn h3 {
+	margin: 0 0px;
+	padding-top: 15px;
+}
+
+.gamerule-text {
+  font-size: 20px;
+  text-align: left;
+  padding: 0 50px;
+}
+
+.gamerule-text b {
+  color: #5cd31b;
+  font-size: 30px;
+}
+
+/* main site */
+
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+.end {
+  font-family: 'Press Start 2P', cursive;
+  color: #F5F5F5;
+  font-size: 0.9rem;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
