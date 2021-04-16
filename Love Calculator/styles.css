@@ -1,0 +1,177 @@
+body {
+  text-align: center;
+  background-color: #f5eee6;
+}
+
+/* header */
+#calculator-header {
+  background-color: #C71585;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header {
+  display: inline;
+  padding: 5px 0;
+}
+
+.header:hover {
+  cursor: pointer;
+  color: #e6a4b4;
+  transform: rotate(0deg);
+}
+
+.header-logo {
+  width: 4%;
+  transform: rotate(-30deg);
+  transition:all .5s;
+}
+
+.header-title {
+  color: white;
+  font-family: 'Mansalva', cursive;
+  font-size: 2.4rem;
+}
+
+/* body */
+
+.contain-size {
+  width: 50%;
+  margin: 0 auto;
+  padding: 120px 0 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.body-box {
+  background-color: #f3d7ca;
+  border-style: dotted;
+  border-width: thin;
+  border-color: #DCDCDC;
+  border-radius: 50px;
+  padding: 30px 30px;
+}
+
+.line-1 {
+  font-family: 'Mansalva', cursive;
+  background: linear-gradient(to right, red,orange,yellowgreen,blue,indigo,violet);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.line-2 {
+  background-color: #C71585;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #C71585;
+  color: white;
+  font-size: 130%;
+  padding: 5px 5px;
+  margin: 20px 20px;
+}
+
+.ol-rules {
+  text-align: left;
+  line-height: 1.62;
+}
+
+li {
+  list-style-type: square;
+}
+
+/* calculator */
+
+.fillname {
+  padding: 5px 0;
+}
+
+.col {
+  padding: 0;
+}
+
+.fillname input[type=text] {
+  border-radius: 30px;
+  border: 1px solid transparent;
+  box-shadow: 10px 10px 50px 10px pink;
+  height: 40px;
+  width: 80%;
+  text-align: center;
+  outline: none;
+}
+
+.fillname input[type=text]:hover {
+  border: 2.8px solid #f3d7ca;
+}
+
+.fillname label {
+  color: #C71585;
+  font-weight: bolder;
+  font-family: 'Mansalva', cursive;
+  font-size: 1.3rem;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+/* result */
+
+#result {
+  font-family: 'Mansalva', cursive;
+  font-size: 4rem;
+  background: linear-gradient(to right, red,orange,yellowgreen,blue,indigo,violet);
+  -webkit-background-clip: text;
+  color: transparent;
+  padding-top: 20px;
+}
+
+.result-comment {
+  width: 50%;
+  margin: 0 auto;
+  padding: 120px 0 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #f3d7ca;
+  border-style: dotted;
+  border-width: thin;
+  border-color: #DCDCDC;
+  border-radius: 50px;
+  padding: 30px 30px;
+  display: none;
+}
+
+#result2 {
+  background-color: #C71585;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #C71585;
+  color: white;
+  font-size: 130%;
+  padding: 5px 5px;
+  margin: 20px 20px;
+}
+
+#paragraph3 {
+  text-align: left;
+}
+
+.share-btn {
+  display: inline;
+}
+
+#bigbutton2 {
+  margin-top: 30px;
+}
+
+/* footer */
+#footer {
+  margin: 50px 20px;
+}
+.footer-web {
+  display: inline;
+}
+.footer-seperater {
+  color: grey;
+}
+.watermark {
+  font-family: 'Josefin Sans', sans-serif;
+}
