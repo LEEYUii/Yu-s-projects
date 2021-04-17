@@ -1,0 +1,66 @@
+/* clear the html boiler plate */
+body {
+  margin: 0;
+  padding-top: 20px;
+  text-align: center;
+  background: #edffec;
+}
+
+/* creat a rectangle as the game screen */
+#game {
+  width: 400px;
+  height: 500px;
+  border: 2px solid #caf7e3;
+  background-color: #f6dfeb;
+  margin: auto;
+}
+
+/* create a ball */
+
+#character {
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(to right,#a80077,#66ff00,#E100FF,#3F5EFB);
+  border-radius: 50%;
+  position: relative; /* Setting the top, right, bottom, and a relatively-positioned element will cause it to be adjusted away from its normal position.*/
+  top: 400px;
+  left: 190px;
+  z-index: 1;
+}
+
+/* creare the block */
+
+.block {
+  width: 400px;
+  height: 20px;
+  background-color: #f875aa;
+  position: relative;
+  top: 100px;
+  margin-top: -20px;
+}
+
+.hole {
+  width: 40px;
+  height: 20px;
+  background-color: #f6dfeb;
+  position: relative;
+  top: 100px;
+  margin-top: -20px;
+}
+
+/* text */
+h1 {
+  color: #e4bad4;
+  font-family: 'Hanalei Fill', cursive;
+  font-weight: bolder;
+  font-size: 50px;
+  text-decoration: underline;
+  text-shadow: 0 0 5px #FF0000, 0 0 5px #6bf403;
+  padding-bottom: 50px;
+}
+
+p {
+  padding-top: 4.5rem;
+  color: #e4bad4;
+  font-family: 'Black Ops One', cursive;
+}
