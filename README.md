@@ -14,6 +14,9 @@ https://leeyuii.github.io/Simon-Game/
 Color Hex Generator:
 https://leeyuii.github.io/Color-Hex-Generator/
 
+Drum Kit Game:
+https://leeyuii.github.io/Drum-Kit-Game/
+
 Dicee Challenge:
 https://leeyuii.github.io/Dicee-Challenge/
 
