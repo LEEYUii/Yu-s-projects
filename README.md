@@ -2,25 +2,28 @@
 
 View my projects:
 
-Fall Ball Game:
+[JS] Fall Ball Game:
 https://leeyuii.github.io/Fall-Ball-Game/
 
-Love Calculator:
+[JS] Love Calculator:
 https://leeyuii.github.io/Love-Calculator/
 
-Simon Game:
+[JS] Slide Game:
+https://leeyuii.github.io/Slide-Game/
+
+[JS] Simon Game:
 https://leeyuii.github.io/Simon-Game/
 
-Color Hex Generator:
+[JS] Color Hex Generator:
 https://leeyuii.github.io/Color-Hex-Generator/
 
-Drum Kit Game:
+[JS] Drum Kit Game:
 https://leeyuii.github.io/Drum-Kit-Game/
 
-Dicee Challenge:
+[JS] Dicee Challenge:
 https://leeyuii.github.io/Dicee-Challenge/
 
-Start-up Company Tindog Website: 
+[HTML] Start-up Company Tindog Website: 
 https://leeyuii.github.io/Tindog-Website/
 
 
